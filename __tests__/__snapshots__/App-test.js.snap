@@ -2,11 +2,14 @@
 
 exports[`Teste de Snapshoot Criação de snapshoot 1`] = `
 <View>
-  <Text>
+  <Text
+    testID="titulo"
+  >
      Digite um número
   </Text>
   <TextInput
     placeholder="Digite aqui"
+    testID="campo"
   />
   <View
     accessibilityRole="button"
@@ -25,6 +28,7 @@ exports[`Teste de Snapshoot Criação de snapshoot 1`] = `
         "opacity": 1,
       }
     }
+    testID="botao"
   >
     <View
       style={
