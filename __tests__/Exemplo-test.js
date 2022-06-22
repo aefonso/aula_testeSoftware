@@ -37,11 +37,6 @@ describe('Testes da função multiplicação', () => {
     it('Multiplicação com Positivos', () => {
         expect(multiplicao(2,3)).toBe(6)
     })
-    it('Multiplicação com Negativos', () => {
-        expect(multiplicao(-2,-2)).toBe(4)
-    })
-    
-
 })
 
  /*test('Teste de Soma com Positivos:', () => {
